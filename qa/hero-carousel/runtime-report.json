@@ -1,0 +1,25 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "desktop": {
+    "slideCount": 2,
+    "heroHeight": 656,
+    "solutionPanelHeight": 656,
+    "headerHeight": 83,
+    "pageOverflow": false,
+    "initialTransform": "matrix(1, 0, 0, 1, 0, 0)",
+    "afterNextTransform": "matrix(1, 0, 0, 1, -984, 0)",
+    "nextWorks": true,
+    "keyboardWorks": true
+  },
+  "mobile": {
+    "heroHeight": 300,
+    "pageOverflow": false,
+    "swipeWorks": true
+  },
+  "regression": {
+    "header_changed_pixels_percent": 0.0,
+    "solution_panel_changed_pixels_percent": 0.0
+  },
+  "pass": true
+}

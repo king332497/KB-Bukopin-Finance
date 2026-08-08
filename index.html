@@ -53,30 +53,26 @@
 
   <main id="main-content" tabindex="-1">
     <section class="official-hero" id="home">
-      <div class="hero-feature">
-        <div class="feature-logos">
-          <div class="feature-bank">
-            <span class="mini-symbol">✳</span>
-            <span>KB Bank</span>
-          </div>
-          <div class="lps-badge" aria-label="Lembaga Penjamin Simpanan">
-            <span class="lps-hex">LPS</span>
-            <span class="lps-copy">Lembaga<br>Penjamin<br>Simpanan</span>
-          </div>
+      <div class="hero-feature hero-promo" data-hero-carousel aria-roledescription="carousel" aria-label="Promosi pilihan">
+        <div class="hero-promo__viewport">
+          <div class="hero-promo__track" id="heroPromoTrack" aria-live="off"></div>
         </div>
 
-        <div class="feature-card">
-          <h1>Informasi Pinjaman KB Bank untuk Berbagai Kebutuhan Anda</h1>
-          <p>
-            Pelajari pilihan pinjaman, persyaratan, simulasi angsuran, serta tahapan pengajuan
-            melalui portal informasi yang lebih sederhana dan mudah dipahami.
-          </p>
-        </div>
+        <button
+          class="hero-promo__control hero-promo__control--prev"
+          type="button"
+          aria-label="Slide sebelumnya"
+          data-hero-prev
+        >‹</button>
 
-        <div class="feature-cta">
-          <a class="btn feature-gold" href="#produk">Lihat Produk Pinjaman</a>
-          <a class="btn feature-light" href="#simulasi">Simulasi Angsuran</a>
-        </div>
+        <button
+          class="hero-promo__control hero-promo__control--next"
+          type="button"
+          aria-label="Slide berikutnya"
+          data-hero-next
+        >›</button>
+
+        <div class="hero-promo__pagination" aria-label="Pilih slide" data-hero-pagination></div>
       </div>
 
       <aside class="solution-panel" aria-label="Solusi untuk Anda">
