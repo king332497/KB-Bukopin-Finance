@@ -1,0 +1,22 @@
+{
+  "errors": [],
+  "desktop_reference_width": {
+    "shellLeft": 120,
+    "shellWidth": 1534,
+    "cardWidth": 360,
+    "cardHeight": 240,
+    "fifthVisiblePx": 122,
+    "pageOverflow": false,
+    "scrollable": true
+  },
+  "mobile": {
+    "cardWidth": 328,
+    "pageOverflow": false,
+    "horizontalScrollWorks": true
+  },
+  "baseline_regression": {
+    "desktop_top_changed_pixels_percent": 0.0,
+    "mobile_top_changed_pixels_percent": 0.0
+  },
+  "pass": true
+}

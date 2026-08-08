@@ -1,0 +1,2 @@
+import { qa, q } from '../core/dom.js';
+export function initMarketTabs(){const tabs=qa('.market-tab');tabs.forEach(tab=>tab.addEventListener('click',()=>{tabs.forEach(t=>{t.classList.remove('active');t.setAttribute('aria-selected','false');});qa('.market-view').forEach(v=>v.classList.remove('active'));tab.classList.add('active');tab.setAttribute('aria-selected','true');q('#view-'+tab.dataset.market)?.classList.add('active');}));}

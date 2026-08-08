@@ -1,0 +1,11 @@
+{
+  "duplicate_ids": [],
+  "missing_local_assets": [],
+  "unsafe_blank_links": [],
+  "inline_style_attributes": [],
+  "credential_like_fields": 0,
+  "js_syntax_errors": [],
+  "forms": 0,
+  "password_inputs": 0,
+  "static_pass": true
+}

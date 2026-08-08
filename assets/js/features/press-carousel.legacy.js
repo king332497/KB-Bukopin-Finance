@@ -1,0 +1,2 @@
+import { q } from '../core/dom.js';
+export function initPressCarousel(){const track=q('#pressTrack'),prev=q('#pressPrev'),next=q('#pressNext');if(!track)return;const scroll=(direction)=>{const card=track.querySelector('.press-card');const step=card?card.getBoundingClientRect().width+16:340;track.scrollBy({left:direction*step,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});};prev?.addEventListener('click',()=>scroll(-1));next?.addEventListener('click',()=>scroll(1));}

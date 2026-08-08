@@ -1,0 +1,2 @@
+import { qa } from '../core/dom.js';
+export function initReveal(){const items=qa('.reveal');if(!items.length)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches){items.forEach(el=>el.classList.add('visible'));return;}if('IntersectionObserver'in window){const io=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');io.unobserve(entry.target);}}),{threshold:.12});items.forEach(el=>io.observe(el));}else items.forEach(el=>el.classList.add('visible'));}

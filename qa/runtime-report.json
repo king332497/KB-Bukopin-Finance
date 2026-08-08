@@ -1,0 +1,73 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "viewports": {
+    "desktop": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "headerHeight": 83,
+      "heroHeight": 821,
+      "navWidth": 1404
+    },
+    "tablet": {
+      "scrollWidth": 834,
+      "clientWidth": 834,
+      "overflow": false,
+      "headerHeight": 73,
+      "heroHeight": 1355,
+      "navWidth": 798
+    },
+    "mobile": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "headerHeight": 73,
+      "heroHeight": 1485,
+      "navWidth": 370
+    }
+  },
+  "feature_tests": {
+    "mobile_drawer": {
+      "open": true,
+      "body_locked": true,
+      "main_inert": true,
+      "focus_on_close": true,
+      "closed_by_escape": true,
+      "focus_return": true
+    },
+    "product_explorer": {
+      "selected": true,
+      "title": "Multiguna"
+    },
+    "calculator": {
+      "monthly": "Rp 1.613.359",
+      "principal": "Rp 50.000.000"
+    },
+    "reduced_motion": {
+      "scroll_behavior": "auto",
+      "reveal_opacity": "1"
+    }
+  },
+  "pixel_diff": {
+    "desktop": {
+      "size_equal": true,
+      "rms": 0.0,
+      "changed_pixels_pct": 0.0,
+      "bbox": null
+    },
+    "tablet": {
+      "size_equal": true,
+      "rms": 0.0,
+      "changed_pixels_pct": 0.0,
+      "bbox": null
+    },
+    "mobile": {
+      "size_equal": true,
+      "rms": 0.0,
+      "changed_pixels_pct": 0.0,
+      "bbox": null
+    }
+  },
+  "runtime_pass": true
+}
