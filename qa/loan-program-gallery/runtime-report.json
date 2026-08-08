@@ -1,0 +1,24 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "desktop": {
+    "cardCount": 5,
+    "pageOverflow": false,
+    "trackScrollable": true,
+    "firstCardWidth": 260,
+    "nextWorks": true,
+    "lightboxOpen": true,
+    "lightboxClosed": true,
+    "focusReturned": true
+  },
+  "mobile": {
+    "cardWidth": 320,
+    "pageOverflow": false,
+    "horizontalScrollWorks": true
+  },
+  "regression": {
+    "desktop_top_changed_pixels_percent": 0.0,
+    "mobile_top_changed_pixels_percent": 0.0
+  },
+  "pass": true
+}
