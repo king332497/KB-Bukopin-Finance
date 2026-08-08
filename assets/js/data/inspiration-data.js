@@ -1,44 +1,37 @@
 export const inspirationArticles = [
   {
-    image: "/assets/images/inspiration/article-1.jpg",
-    title: "KB Bank Dorong Pemberdayaan Penyandang Disabilitas melalui Program KREASIK",
-    date: "2026-08-04",
-    dateLabel: "04 Agustus 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
+    image: "/assets/images/inspiration/inspiration-youth-live.png",
+    title: "KB Youth Live 2024 — Energi Muda, Inspirasi Tanpa Batas",
+    date: "2024-09-28",
+    dateLabel: "28 September 2024",
+    url: "/inspiration/"
   },
   {
-    image: "/assets/images/inspiration/article-2.jpg",
-    title: "Literasi Keuangan Sejak Dini melalui Program Belajar Finansial",
-    date: "2026-07-22",
-    dateLabel: "22 Juli 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
+    image: "/assets/images/inspiration/inspiration-rakornas.png",
+    title: "KB Bank Gelar Rapat Koordinasi Nasional, Perkuat Strategi dan Sinergi",
+    date: "2024-05-15",
+    dateLabel: "15 Mei 2024",
+    url: "/inspiration/"
   },
   {
-    image: "/assets/images/inspiration/article-3.jpg",
-    title: "Kontribusi Sosial bagi UMKM, Karyawan, dan Pendidikan",
-    date: "2026-07-10",
-    dateLabel: "10 Juli 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
+    image: "/assets/images/inspiration/inspiration-csr.png",
+    title: "KB Bank Peduli Pendidikan untuk Masa Depan Anak Indonesia",
+    date: "2024-05-28",
+    dateLabel: "28 Mei 2024",
+    url: "/inspiration/"
   },
   {
-    image: "/assets/images/inspiration/article-4.jpg",
-    title: "Kolaborasi dan Inovasi untuk Mendukung Pertumbuhan Ekonomi",
-    date: "2026-06-25",
-    dateLabel: "25 Juni 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
+    image: "/assets/images/inspiration/inspiration-kerja-sama.png",
+    title: "KB Bank dan Mitra Sejati Solusi Bersama Jalin Kerja Sama Strategis",
+    date: "2024-04-24",
+    dateLabel: "24 April 2024",
+    url: "/inspiration/"
   },
   {
-    image: "/assets/images/inspiration/article-5.jpg",
-    title: "Informasi Finansial yang Lebih Mudah Dipahami untuk Berbagai Kebutuhan",
-    date: "2026-06-12",
-    dateLabel: "12 Juni 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
-  },
-  {
-    image: "/assets/images/inspiration/article-6.jpg",
-    title: "Membangun Ekosistem Keuangan yang Inklusif dan Berkelanjutan",
-    date: "2026-05-28",
-    dateLabel: "28 Mei 2026",
-    url: "https://www.kbbank.co.id/info-terbaru"
+    image: "/assets/images/inspiration/inspiration-transisi-energi.png",
+    title: "KB Bank Salurkan Pembiayaan untuk Dukung Transisi Energi Bersih",
+    date: "2024-05-22",
+    dateLabel: "22 Mei 2024",
+    url: "/inspiration/"
   }
 ];

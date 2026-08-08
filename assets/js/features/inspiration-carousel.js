@@ -1,6 +1,6 @@
 import { inspirationArticles } from '../data/inspiration-data.js';
 
-const escapeHtml = (value = '') =>
+const escapeInspirationHtml = (value = '') =>
   String(value).replace(/[&<>"']/g, (char) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
   }[char]));
@@ -13,14 +13,12 @@ export function initInspirationCarousel() {
     <article class="inspiration-card">
       <a
         class="inspiration-card__link"
-        href="${escapeHtml(article.url)}"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="${escapeHtml(article.title)} — ${escapeHtml(article.dateLabel)}"
+        href="${escapeInspirationHtml(article.url)}"
+        aria-label="${escapeInspirationHtml(article.title)}"
       >
         <img
           class="inspiration-card__media"
-          src="${escapeHtml(article.image)}"
+          src="${escapeInspirationHtml(article.image)}"
           alt=""
           width="1200"
           height="760"
@@ -29,12 +27,29 @@ export function initInspirationCarousel() {
         >
         <span class="inspiration-card__shade" aria-hidden="true"></span>
         <span class="inspiration-card__content">
-          <time class="inspiration-card__date" datetime="${escapeHtml(article.date)}">
-            ${escapeHtml(article.dateLabel)}
-          </time>
-          <strong class="inspiration-card__title">${escapeHtml(article.title)}</strong>
+          <strong class="inspiration-card__title">${escapeInspirationHtml(article.title)}</strong>
         </span>
       </a>
     </article>
   `).join('');
+
+  const section = track.closest('.inspiration-section');
+  const next = section?.querySelector('[data-inspiration-next]');
+  const prev = section?.querySelector('[data-inspiration-prev]');
+
+  const getStep = () => {
+    const card = track.querySelector('.inspiration-card');
+    if (!card) return track.clientWidth * .8;
+    const styles = getComputedStyle(track);
+    const gap = parseFloat(styles.columnGap || styles.gap || '0');
+    return card.getBoundingClientRect().width + gap;
+  };
+
+  next?.addEventListener('click', () => {
+    track.scrollBy({ left: getStep(), behavior: 'smooth' });
+  });
+
+  prev?.addEventListener('click', () => {
+    track.scrollBy({ left: -getStep(), behavior: 'smooth' });
+  });
 }
