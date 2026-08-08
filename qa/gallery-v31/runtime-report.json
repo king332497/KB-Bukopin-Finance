@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "desktop": {
+    "widths": [
+      276,
+      276,
+      276,
+      276,
+      276
+    ],
+    "heights": [
+      326,
+      326,
+      326,
+      394,
+      417
+    ],
+    "imageHeights": [
+      274,
+      274,
+      274,
+      343,
+      366
+    ],
+    "pageOverflow": false,
+    "trackScrollable": true
+  },
+  "mobile": {
+    "cardWidth": 320,
+    "cardHeight": 369,
+    "pageOverflow": false,
+    "trackScrollable": true
+  },
+  "pass": true
+}
