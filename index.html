@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#4c238f" />
   <meta name="description" content="Portal informasi pinjaman yang merujuk pada informasi publik KB Bank. Bukan kanal login atau transaksi bank." />
-  <title>Portal Informasi Pinjaman — Referensi KB Bank</title>
+  <title> — Referensi KB Bank</title>
   <link rel="stylesheet" href="./assets/css/app.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
   <header class="corp-header">
     <div class="corp-nav">
-      <a class="corp-brand" href="#home" aria-label="KB Bank - Portal Informasi Pinjaman">
-        <span class="corp-symbol" aria-hidden="true"></span>
+      <a class="corp-brand" href="#home" aria-label="KB Bank - ">
+        
         <span class="corp-brand-name">KB Bank</span>
         <span class="corp-lang"><span class="active">ID</span><span class="muted">EN</span></span>
       </a>
@@ -133,8 +133,8 @@
     <div class="portal-band">
       <div class="portal-band-inner">
         <div>
-          <span class="portal-pill">Portal Informasi Pinjaman</span>
-          <strong>Informasi produk dan simulasi tanpa meminta OTP, PIN, atau password.</strong>
+          
+          
         </div>
         <span>Detail produk tetap mengacu pada kanal resmi KB Bank.</span>
       </div>
@@ -189,30 +189,33 @@
         </div>
 
 
-        <section class="loan-program-gallery reveal" aria-labelledby="loanProgramTitle">
-          <div class="loan-program-gallery__head">
-            <div>
-              <span class="eyebrow">Program KUR</span>
-              <h3 id="loanProgramTitle">Pilihan program untuk kebutuhan usaha.</h3>
-              <p>Geser untuk melihat materi visual masing-masing program.</p>
-            </div>
-            <div class="loan-program-gallery__controls" aria-label="Navigasi galeri program">
-              <button class="loan-program-gallery__control" type="button" aria-label="Program sebelumnya" data-loan-gallery-prev>‹</button>
-              <button class="loan-program-gallery__control" type="button" aria-label="Program berikutnya" data-loan-gallery-next>›</button>
-            </div>
+        <section class="kur-overview reveal" aria-labelledby="kurOverviewTitle">
+          <div class="kur-overview__head">
+            <span class="eyebrow">Program KUR</span>
+            <h3 id="kurOverviewTitle">Daftar Jenis KUR</h3>
+            <p>Pilih kategori KUR yang sesuai dengan kebutuhan usaha Anda.</p>
           </div>
 
-          <div
-            class="loan-program-gallery__track"
-            id="loanProgramTrack"
-            tabindex="0"
-            role="region"
-            aria-label="Galeri program KUR. Geser secara horizontal untuk melihat program lainnya."
-          ></div>
+          <button
+            class="kur-overview__media-button"
+            type="button"
+            aria-label="Perbesar visual Daftar Jenis KUR"
+            data-kur-overview-open
+          >
+            <img
+              class="kur-overview__media"
+              src="/assets/images/loan-programs/daftar-jenis-kur.png"
+              alt="Daftar Jenis KUR: KUR Super Mikro, KUR Mikro, KUR Kecil, KUR Khusus, dan KUR Penempatan PMI."
+              width="1104"
+              height="1379"
+              loading="lazy"
+              decoding="async"
+            >
+          </button>
 
-          <p class="loan-program-gallery__notice">
-            Materi visual ditampilkan dari aset yang diberikan untuk website ini. Ketentuan aktual seperti plafon,
-            tenor, bunga, subsidi, kelayakan, dan ketersediaan program perlu dikonfirmasi melalui kanal resmi yang berlaku.
+          <p class="kur-overview__notice">
+            Informasi ini merupakan klasifikasi KUR secara umum. Ketersediaan produk, persyaratan,
+            plafon, tenor, bunga, dan keputusan pembiayaan mengikuti kebijakan serta verifikasi yang berlaku.
           </p>
         </section>
 
