@@ -21,13 +21,10 @@ export function initWhatsAppConversion() {
     const url = buildWhatsAppUrl(context);
 
     if (!url) {
+      // Keep any direct href already present in HTML as a progressive-enhancement fallback.
+      if (link.href && link.href.includes('wa.me/')) return;
       link.setAttribute('aria-disabled', 'true');
       link.dataset.whatsappUnconfigured = 'true';
-
-      link.addEventListener('click', (event) => {
-        event.preventDefault();
-        document.querySelector('#whatsappSetupNotice')?.focus();
-      });
       return;
     }
 
